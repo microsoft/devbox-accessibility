@@ -1,0 +1,8 @@
+$schema: "1.0"
+name: devbox-customization
+tasks:
+  - name: winget
+    parameters:
+      downloadUrl: 'https://raw.githubusercontent.com/microsoft/devbox-accessibility/main/dsc-samples/configuration.dsc.yaml'
+      configurationFile: 'C:\WinGetConfig\configuration.dsc.yaml'
+      runAsUser: true
